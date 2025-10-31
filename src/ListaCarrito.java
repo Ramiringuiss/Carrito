@@ -30,12 +30,12 @@ public class ListaCarrito {
         while (actual != null) {
             System.out.printf("%d. %s - Cantidad: %d - Precio: S/%.2f - Subtotal: S/%.2f\n",
                     i, actual.nombre, actual.cantidad, actual.precio, actual.getSubtotal());
-            total += actual.getSubtotal();
+            //total += actual.getSubtotal();
             actual = actual.siguiente;
             i++;
         }
 
-        System.out.printf("TOTAL ACTUAL: S/%.2f\n", total);
+        //System.out.printf("TOTAL ACTUAL: S/%.2f\n", total);
     }
 
     // Eliminar producto por posición (número en la lista)
